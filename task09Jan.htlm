@@ -1,48 +1,77 @@
+<!-- Write code with example of Heading, anchor, and img -->
+<!-- Using what we have covered today I would like you to put together a HTML webpage. Your webpage must include appropriate HTML document structure and at least one working example of each of the following elements:
+ 
+A Heading
+A Paragraph
+An Anchor
+An Image
+A List
+A Table
+ 
+Some of the above elements we have not yet covered. Use your research skills to lookup these elements and how they can be added to your HTML. -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Day 2</title>
 </head>
 
 <body>
-    <h1>HTML Forms</h1>
-    <!-- The Action attribute allows us to specify how the form data will be processed. -->
-    <form action="#">
-        <!-- The "for" attribute must match the value of the "id" attribute of the associated input field. -->
-        <label for="nameField">Name:</label>
-        <input id="nameField" type="text" placeholder="John Smith...">
+    <h1>Day 2 practice of HTML</h1>
 
-        <br>
+    <p>This is practice page, where you can apply all you have learn.</p> <br>
 
-        <label for="pass">Password:</label>
-        <input id="pass" type="password" required>
+    <a href="https://www.w3schools.com/html/html_paragraphs.asp">HTML Paragraph Explaned</a> <br>
 
-        <br>
+    <img src="pngExampleOfparagraph.png.PNG" alt="Internal image of paragraph"> <br>
+    <!-- <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/07/Paragraphs-in-HTML.jpg" alt="External image"> <br> -->
 
-        <label for="mail">Email:</label>
-        <input id="mail" type="email">
+    <p>HTML lists allow web developers to group a set of related items in lists:</p>
+    <ul>
+        <li>Unorder HTML List</li>
+        <li>Ordered HTML List</li>
+        <li>Description HTML List</li>
+    </ul>
 
-        <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ul</td>
+                <td>Defines an unordered list</td>
+            </tr>
+            <tr>
+                <td>ol</td>
+                <td>Defines an ordered list</td>
+            </tr>
+            <tr>
+                <td>li</td>
+                <td>Defines a list item</td>
+            </tr>
+            <tr>
+                <td>dl</td>
+                <td>Defines a description list</td>
+            </tr>
+            <tr>
+                <td>dt</td>
+                <td>Defines a term in a description list</td>
+            </tr>
+            <tr>
+                <td>dd</td>
+                <td>Describes the term in a description list</td>
+            </tr>
+        </tbody>
+    </table>
 
-        <label for="phone">Phone Number:</label>
-        <input id="phone" type="tel" placeholder="(+44)1234567">
 
-        <br>
-
-        <label for="dob">DOB:</label>
-        <input id="dob" type="date">
-
-        <br>
-
-        <input type="reset" value="Clear">
-
-        <br>
-
-        <input type="submit" value="Submit">
-    </form>
 </body>
 
 </html>
