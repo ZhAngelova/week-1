@@ -1,0 +1,92 @@
+<!-- HTML - Day 3 - Task:
+ 
+Put together a basic HTML webpage structure with an appropriate use of Semantic HTML, alongside correct use of both the Class and ID attributes.
+ 
+Your webpage must include an embedded YouTube video and an embedded Google Map.
+ 
+Research "Favicons" and see if you are able to change the Favicon of your website.
+ 
+Finally, utilise HTML validation to ensure that your HTML is error free. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viyewport" content="width=, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons8-bread-16.png">
+    <!-- <link rel="icon" type="image/png"  href="https://icons8.com/icon/2395/bread"> -->
+    <title>Best Bread</title>
+    <style>
+        header {
+            background-color: bisque;
+            color: #e61236;
+        }
+
+        body {
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- This didn't work! <a target="_blank" href="https://icons8.com/icon/2395/bread">Bread</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
+        <img width="50" height="50" src="https://img.icons8.com/ios/50/bread.png" alt="bread">
+        <h1>The Best Bakery in Town</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <h3>Welcome to Our Bakery!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolor neque, consequuntur deserunt
+            cumque est illum nostrum itaque in eos error vitae veniam. Molestias, ad!</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis vel nostrum beatae obcaecati inventore
+            harum reprehenderit quae laboriosam at facere esse animi similique cum earum nihil eos non, soluta iste
+            ipsum quidem iusto suscipit atque, minus fugit? Accusamus, culpa voluptatem qui exercitationem, tempora
+            consequuntur dolore, delectus velit cum earum sed?</p>
+
+
+
+        <img src="images/istockphoto-1163707531-612x612.jpg" alt="bread">
+        <img src="images/istockphoto-1254169571-612x612.jpg" alt="bread">
+        <img src="images/istockphoto-1292440120-612x612.jpg" alt="bread">
+        <img src="images/istockphoto-1467580411-612x612.jpg" alt="bread">
+
+
+
+        <!-- Error: The frameborder attribute on the iframe element is obsolete/out of date. Use CSS instead. From line 56, column 9; to line 56, column 290↩        <iframe width="560" height="315" src="https://www.youtube.com/embed/kFxr5AjjCKU?si=0TxMPU5rsP6KxJye&…toplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></ifra -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kFxr5AjjCKU?si=0TxMPU5rsP6KxJye&amp;start=6"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158826.5090901193!2d-0.2093271493419503!3d51.537718565303024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876058f43af9611%3A0xeeff65ccdc1116db!2sGAIL&#39;s%20Bakery%20Buckingham%20Palace%20Road!5e0!3m2!1sen!2suk!4v1704976188761!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+    </main>
+
+
+
+    <footer style="background-color: blanchedalmond;">
+        <h6>Find us:</h6>
+    </footer>
+
+
+</body>
+
+</html>
