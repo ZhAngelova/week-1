@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+    <!-- The Action attribute allows us to specify how the form data will be processed. -->
+    <form action="#">
+        <!-- The "for" attribute must match the value of the "id" attribute of the associated input field. -->
+        <label for="nameField">Name:</label>
+        <input id="nameField" type="text" placeholder="John Smith...">
+
+        <br>
+
+        <label for="pass">Password:</label>
+        <input id="pass" type="password" required>
+
+        <br>
+
+        <label for="mail">Email:</label>
+        <input id="mail" type="email">
+
+        <br>
+
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type="tel" placeholder="(+44)1234567">
+
+        <br>
+
+        <label for="dob">DOB:</label>
+        <input id="dob" type="date">
+
+        <br>
+
+        <input type="reset" value="Clear">
+
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
